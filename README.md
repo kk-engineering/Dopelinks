@@ -16,4 +16,6 @@ Med Kaikai <br/>
 
 ![Picture](https://github.com/kk-engineering/Dopelinks/blob/master/Screenshot%202021-07-15%20at%2000.11.10.png)
 ![Picture](https://github.com/kk-engineering/Dopelinks/blob/master/Screen%20Shot%202018-12-11%20at%2007.17.49.png)
+![Picture](https://github.com/kk-engineering/Dopelinks/blob/master/Screen%20Shot%202018-12-11%20at%2007.16.56.png)
+![Picture](https://github.com/kk-engineering/Dopelinks/blob/master/Screen%20Shot%202018-12-11%20at%2007.16.38.png)
 
