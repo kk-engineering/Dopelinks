@@ -103,8 +103,8 @@ class Search extends Component {
     }
 
     async getSpotifySearch() {
-        var client_id = 'e9a1998f469f4dea9325d917afe55ea4';
-        var client_secret = '9f74bb5812e64cf7a1ed05737957f0bb';
+        var client_id = 'CLIENTID';
+        var client_secret = 'CLIENTSECRET';
 
         const tokenURL = 'https://cors-anywhere.herokuapp.com/https://accounts.spotify.com/api/token';
         var util = require('util');
@@ -188,7 +188,7 @@ class Search extends Component {
     }
 
     async getYoutubeLink(artist, trackName) {
-        const API_KEY = 'AIzaSyCXW9MoSdff4vY2Verbd-DNii7WsMkh5Og';
+        const API_KEY = 'YOUTUBEKEY';
 
         searchYoutube({ key: API_KEY, term: artist + '%20' + trackName }, (data) => {
             this.setState({
@@ -201,7 +201,7 @@ class Search extends Component {
     }
 
     async getDeezerLink(artist, trackName) {
-        const API_KEY = 'AIzaSyCXW9MoSdff4vY2Verbd-DNii7WsMkh5Og';
+        const API_KEY = 'DEEZERKEY';
         const apiURL = 'https://cors-anywhere.herokuapp.com/https://api.deezer.com/search?q=' + artist + '%20' + trackName;
         const query = apiURL;
         const response = await fetch(query, {
